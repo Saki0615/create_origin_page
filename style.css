@@ -1,0 +1,54 @@
+*{
+    font-family: "Embed code", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+img{
+    margin:5px auto;
+}
+.h{
+    font-size: 100px;
+    margin:5px auto;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 16px 24px;
+    background-color: rgb(100, 100, 100);
+    z-index: 100;
+}
+
+header nav{
+    display: flex;
+    width: max-content;
+    margin: 0 0 0 auto;
+}
+
+header nav a{
+    display: block;
+  
+    margin: 0 24px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container {
+    padding-top:70px;
+}
+table, td{
+    border-width: 3px;
+    border-style: outset;
+    border-color: #ff0000;
+}
+
+table{
+    margin: 15px auto;
+}
+
+td{
+padding: 10px;
+width :min-content;
+}
